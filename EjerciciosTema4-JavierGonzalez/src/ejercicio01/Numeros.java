@@ -1,8 +1,8 @@
 package ejercicio01;
 
 public class Numeros {
-	// Establecemos una función no estática para saber si un número es primo
-	boolean primo(int num) {
+	
+	boolean primo(int num) {					// Establecemos una función no estática para saber si un número es primo
 		boolean primo = true;
 		for (int i = 2; i <= num / 2; i++) {
 			if (num % i == 0) {
@@ -12,16 +12,12 @@ public class Numeros {
 		}
 		return primo;
 	}
-	// Establecemos una función no estática para saber si un número es capícua
-	boolean capicua(int num) {
-
+	boolean capicua(int num) {					// Establecemos una función no estática para saber si un número es capícua
 		boolean capicua = true;
 		int numGuardado;
 		int inverso = 0;
 		int unidad = 0;
-
-		// Condicional ya que cualquier numero menor que 10 es capicua al ser un solo numero
-		if (num < 10) {
+		if (num < 10) {							// Condicional ya que cualquier numero menor que 10 es capicua al ser un solo numero
 
 			capicua = true; // Capicua será true
 
