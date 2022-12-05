@@ -1,6 +1,16 @@
 package ejercicio01;
+/**
+ * Ejercicio sobre num primos y capicua
+ * @author JGonzalez
+ * @version 0.1, 05/12/2022
+ */
 
 public class Numeros {
+	/**
+	 * 
+	 * @param num variable del num introducido para saber si es primo
+	 * @return true si es primo, false si no lo es
+	 */
 	
 	boolean primo(int num) {					// Establecemos una función no estática para saber si un número es primo
 		boolean primo = true;
@@ -12,6 +22,11 @@ public class Numeros {
 		}
 		return primo;
 	}
+	/**
+	 * 
+	 * @param num variable del num introducido para saber si es capicua
+	 * @return true si es capicua, false si no lo es
+	 */
 	boolean capicua(int num) {					// Establecemos una función no estática para saber si un número es capícua
 		boolean capicua = true;
 		int numGuardado;
