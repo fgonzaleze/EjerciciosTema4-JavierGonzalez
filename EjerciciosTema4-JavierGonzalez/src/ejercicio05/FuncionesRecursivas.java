@@ -11,19 +11,19 @@ public class FuncionesRecursivas {
 		return suma;
 	}
 	public static double potencia(double a, int num) {
-		double res = 0;
+		double resultado = 0;
 		if (num == 0) {
-			res = 1;
+			resultado = 1;
 		} else if (num != 0) {
-			res = a * potencia(a, num - 1);
+			resultado = a * potencia(a, num - 1);
 		}
-		return res;
+		return resultado;
 	}
 	public static int serieFibonacci(int num) {
 		int fibonacci = 0;
-		if (num != 0 && num != 1) {
+		if (num <= 1) {
 			fibonacci = serieFibonacci(num - 1) + serieFibonacci(num - 2);
-		} else if (num == 0 || num == 1) {
+		} else {
 			fibonacci = num;
 		}
 		return fibonacci;

@@ -6,8 +6,7 @@ public class Main {
 
 	static void main(String[] args) {
 
-		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);					// Abrimos el escáner 
 		System.out.print("Introduzca el radio: ");
 	
 		Esfera.radio = sc.nextDouble();

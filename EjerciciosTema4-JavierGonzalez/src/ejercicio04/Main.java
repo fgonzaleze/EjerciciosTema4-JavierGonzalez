@@ -18,7 +18,7 @@ public class Main {
 		System.out.println("Suma: " + cuenta.A + " + " + cuenta.B + " = " + cuenta.suma());
 		System.out.println("Resta: " + cuenta.A + " - " + cuenta.B + " = " + cuenta.resta());
 		System.out.println("Multiplicación: " + cuenta.A + " x " + cuenta.B + " = " + cuenta.multiplicacion());
-		System.out.println("División: " + + cuenta.A + "  " + cuenta.B + " = " + cuenta.division());
+		System.out.println("División: " + + cuenta.A + " / " + cuenta.B + " = " + cuenta.division());
 
 		sc.close();
 

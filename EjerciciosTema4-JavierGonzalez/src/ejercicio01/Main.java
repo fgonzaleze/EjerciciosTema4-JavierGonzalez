@@ -12,11 +12,11 @@ public class Main {
 				System.out.print("Introduzca un número para saber si es capicua o primo:");
 				num = sc.nextInt();
 				Numeros objeto = new Numeros();					// Vamos a crear un objeto ya que son funciones no estáticas.
-				if (objeto.primo(num)==true) {					// Un if else para saber si el numero es primo o no, y lo mismo para el capicua
+				if (objeto.primo(num) == true) {					// Un if else para saber si el numero es primo o no, y lo mismo para el capicua
 					System.out.println(num + " es primo.");
 				} else {
 					System.out.println("El número no es primo");
-				} if (objeto.capicua(num)==true) {
+				} if (objeto.capicua(num) == true) {
 					System.out.println(num + " es capicúa.");
 				} else {
 					System.out.println("El numero no es capicúa");
